@@ -8,13 +8,15 @@
 | `git clone ssh://git@github.com/[username]/[repository-name].git`                                  |Create a local copy of a remote repository                                        |
 
 # Create a new repository on the command line
-| Command |
-| `touch README.md`|
-|`git init` |
-|`git add README.md`|
-|`git commit -m "first commit"`|
-|`git remote add origin git@github.com:alexpchin/<reponame>.git`|
-|`git push -u origin master`|
+| Command                                        | Description                                              |
+|------------------------------------------------|----------------------------------------------------------|
+| `touch README.md`                                | 1                                          |
+|`git init`                       | 2                        |
+|`git commit -m "first commit" `                                  |3        |
+| `git remote add origin git@github.com:alexpchin/<reponame>.git`            |4                                         |
+|`git push -u origin master`| 5                              |
+
+
 
 # Push an existing repository from the command line
 
