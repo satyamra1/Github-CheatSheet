@@ -7,6 +7,19 @@
 | `git init`                                     | Initialize a local Git repository                     |
 | `git clone ssh://git@github.com/[username]/[repository-name].git`                                  |Create a local copy of a remote repository                                        |
 
+# Create a new repository on the command line
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:alexpchin/<reponame>.git
+git push -u origin master
+##Push an existing repository from the command line
+
+git remote add origin git@github.com:alexpchin/<reponame>.git
+git push -u origin master
+
 # Basic Snapshotting
 
 | Command                                        | Description                                              |
